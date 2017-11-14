@@ -1,0 +1,30 @@
+.form{
+    text-align: center;
+}
+.wrapper{
+    border-radius: 50%;
+    text-align: center;
+    width: 400px;
+    margin: 20%;
+}
+.cloud {
+    display: inline;
+    list-style-type: none;
+}
+.cloud li {
+    list-style: none;
+    display: inline;
+    text-transform: capitalize;
+}
+.cloud li:nth-of-type(3n + 1) {
+    font-size: 30px;
+    color: #AC1F1F;
+}
+.cloud li:nth-of-type(4n+3) {
+    font-size: 20px;
+    color: #3719A5;    
+}
+.cloud li:nth-of-type(5n - 3) {
+    font-size: 40px;
+    color: #056959;    
+}
